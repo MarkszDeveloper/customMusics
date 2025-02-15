@@ -73,6 +73,7 @@ $color-music-player: rgb(46, 44, 44);
             }
         }
         .assets-menu {
+            cursor: not-allowed;
             display: flex;
             flex-direction: column;
             gap: 1rem;
@@ -116,6 +117,7 @@ $color-music-player: rgb(46, 44, 44);
         }
 
         footer {
+            cursor: not-allowed;
             p {
                 display: flex;
                 gap: .8rem;

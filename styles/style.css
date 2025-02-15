@@ -63,6 +63,7 @@
   color: white;
 }
 #principal-container #principal-navegation .assets-menu {
+  cursor: not-allowed;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -102,6 +103,9 @@
 #principal-container #principal-navegation .assets-menu p {
   font-size: 0.9rem;
   color: rgb(236, 225, 225);
+}
+#principal-container #principal-navegation footer {
+  cursor: not-allowed;
 }
 #principal-container #principal-navegation footer p {
   display: flex;
