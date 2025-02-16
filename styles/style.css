@@ -220,17 +220,77 @@
   background-color: rgb(46, 44, 44);
 }
 
-@media (max-width: 649px) {
+@media (max-width: 600px) {
+  html {
+    font-size: x-large;
+  }
+  #principal-navegation {
+    display: none !important;
+  }
+  .logo {
+    display: block !important;
+    color: white;
+  }
+  .logo i,
+  .logo span {
+    font-size: 2rem;
+  }
+  #container-user {
+    gap: 1rem;
+    flex-direction: column !important;
+  }
+  .musics-tittle p {
+    display: none;
+  }
   #grid-2-columns {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
-@media (min-width: 650px) and (max-width: 950px) {
+@media (min-width: 601px) and (max-width: 820px) {
+  html {
+    font-size: larger;
+  }
+  #principal-navegation {
+    display: none !important;
+  }
+  .logo {
+    display: block !important;
+    color: white;
+  }
+  .logo i,
+  .logo span {
+    font-size: 2rem;
+  }
+  #container-user {
+    justify-content: space-between !important;
+  }
   #grid-2-columns {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
-@media (max-width: 1160px) {
+@media (min-width: 821px) and (max-width: 1400px) {
+  html {
+    font-size: larger;
+  }
+  #principal-navegation {
+    display: none !important;
+  }
+  .logo {
+    display: block !important;
+    color: white;
+  }
+  .logo i,
+  .logo span {
+    font-size: 2rem;
+  }
+  #grid-2-columns {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  #container-user {
+    justify-content: space-between !important;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1694px) {
   #container-user {
     justify-content: space-between !important;
   }
@@ -246,7 +306,10 @@
     display: none !important;
   }
 }
-@media (max-width: 1290px) {
+@media (min-width: 1695px) and (max-width: 2050px) {
+  html {
+    font-size: x-large;
+  }
   #principal-content {
     padding: 3rem 8rem 0 7rem !important;
   }
@@ -272,18 +335,8 @@
     width: 65% !important;
   }
 }
-@media (max-width: 1440px) {
+@media (min-width: 2051px) {
   html {
-    font-size: 0.9rem;
-  }
-}
-@media (min-width: 1800px) {
-  html {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 2700px) {
-  html {
-    font-size: 1.88rem;
+    font-size: x-large;
   }
 }/*# sourceMappingURL=style.css.map */
