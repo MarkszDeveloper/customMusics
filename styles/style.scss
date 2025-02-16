@@ -305,13 +305,9 @@ $color-music-player: rgb(46, 44, 44);
 
 }
 
-@media (min-width: 821px) and (max-width: 1400px) {
+@media (min-width: 821px) {
     html {
-        font-size: larger;
-    }
-
-    #principal-navegation {
-        display: none !important;
+        font-size: medium;
     }
     
     .logo {
@@ -322,10 +318,6 @@ $color-music-player: rgb(46, 44, 44);
             font-size: 2rem;
         }
     }
-
-    #grid-2-columns {
-        grid-template-columns: repeat(3, 1fr) !important;
-    }
     
     #container-user {
         justify-content: space-between !important;
@@ -333,67 +325,3 @@ $color-music-player: rgb(46, 44, 44);
 
 }
 
-@media (min-width: 1401px) and (max-width: 1694px) {
-
-    #container-user {
-        justify-content: space-between !important;
-    }
-
-    .logo {
-        display: block !important;
-        color: white;
-        i, 
-        span {
-            font-size: 2rem;
-        }
-    }
-
-    #principal-navegation {
-        display: none !important;
-    }
-}
-
-@media (min-width: 1695px) and (max-width: 2050px) {
-
-    html {
-        font-size: x-large;
-    }
-
-    #principal-content {
-        padding: 3rem 8rem 0 7rem !important;
-    }
-
-    .musics-perfil {
-        grid-template-columns: repeat(3, 1fr) !important;
-        place-content: center;
-        gap: 1.5rem !important;
-
-        div {
-            display: flex;
-            flex-direction: column;
-            font-size: 1.3rem !important;
-            img {
-                width: 90% !important;
-                align-self: center;    
-                margin-bottom: 1rem !important;
-            }
-            p {
-                text-align: center;
-            }
-        }
-
-        .artists {
-            
-            img {
-                width: 65% !important;
-            }
-        }
-    }
-}
-
-
-@media (min-width: 2051px) {
-    html {
-        font-size: x-large;
-    }
-}
